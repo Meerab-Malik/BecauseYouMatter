@@ -1,0 +1,125 @@
+/* responsive.css */
+
+/* For tablets and small desktops */
+@media (max-width: 900px) {
+  .header {
+    flex-wrap: wrap;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card-link {
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-us {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .about-left, .about-right {
+    flex: 1 1 100%;
+    margin-bottom: 2rem;
+  }
+
+  .publication-list-home {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .publication-item {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .follow-us-section {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .instagram-embed-container {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+  }
+
+  .nav-links a {
+    font-size: 1.1rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .btn,
+  .view-all-button,
+  .follow-btn {
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+  }
+}
+
+/* Hero section responsiveness */
+@media (max-width: 900px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem; /* adjust as needed */
+  }
+
+  .hero-content p {
+    font-size: 1.1rem; /* adjust as needed */
+  }
+
+  .hero-image {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+}
